@@ -1,7 +1,7 @@
 # Hi, I'm Ashish! 👋
 
 # KHub (Java Full Stack Project)
-![WelcomePage](./ScreenShots/welcomePage.JPG)
+![KHubIndexPage](./ScreenShots/KHubIndexPage.JPG)
 
 A brief description of what this project does and who it's for...
 
@@ -27,10 +27,10 @@ candidate as well as allow printing necessary records.
 
 ## 	:camera: Screenshots
 <!--  Syntax: ![Alt-Text](Path) -->
-![SignUpPage](./ScreenShots/Signup.JPG)
-![LoginPage](./ScreenShots/Login.JPG)
-![UserHomePage](./ScreenShots/UserHomePage.JPG)
-![AdminHomePage](./ScreenShots/AdminHomePage.JPG)
+![Opportunities](./ScreenShots/KHubUserOpportunities.JPG)
+![AdminViewOpportunities](./ScreenShots/KHubAdminviewOpportunitiesDetails.JPG)
+![UserResume](./ScreenShots/KHubUserResumeTemplate.JPG)
+![CompanyDetails](./ScreenShots/KHubUserCompanyPage.JPG)
 
 ## :scroll: Lessons Learned
 
