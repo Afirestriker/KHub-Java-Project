@@ -1,0 +1,2 @@
+# KHub-Project
+The project titled ‘KHub’ is a job portal application developed that is intended to be use by any user seeking for a job. The user can register and maintain their personal and academic details. User can generate resume in multiple formats. User can prepare itself for Interview and test. User can check and apply for any active opportunity that is display. And admin can generate and print reports related to particular opportunity.
