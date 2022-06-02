@@ -1,0 +1,126 @@
+
+/* CSS styling for JSP/Company/<comapnyName>CompanyDetails.jsp file */
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	font-family: Montserrat, Roboto, sans-serif;
+	scroll-behavior: smooth;
+	/*font-weight: bold;*/
+}
+
+
+/* Company Header CSS */
+.deloitte-header{
+	background-color: black;
+	color: white;
+}
+
+.pwc-header{
+	background-image: url(../../Images/Company/PWCBg.jpg);
+	background-size: cover;
+	color: black;
+}
+
+.kpmg-header{
+	background-image: url(../../Images/Company/KPMGBg.jpg);
+	background-size: cover;
+}
+
+.ey-header{
+	background-image: url(../../Images/Company/EYBg.jpg);
+	background-size: cover;
+	color: white;
+}
+
+.google-header{
+	background-image: url(../../Images/Company/googleHeaderBg.jpg);
+	background-size: cover;
+}
+
+.microsoft-header{
+	background-image: url(../../Images/Company/MicrosoftBg.jpg);
+	background-size: cover;
+	color: white;	
+}
+
+.apple-header{
+	/*background-image: url(../Images/MicrosoftBg.jpg);
+	background-size: cover;*/
+	background-color: black;
+	color: white;	
+}
+
+.ibm-header{
+	background-image: url(../../Images/Company/IBMBg.png);
+	background-size: cover;
+	color: white;
+}
+
+
+.company-header-h1{
+	/*font-weight: bold;*/
+	/*color: cornsilk;*/
+}
+
+.company-slogan{
+	/*text-transform: uppercase;
+	font-weight: bold;*/
+}
+
+.company-header button{
+	background-color: white; 
+  	color: black; 
+  	border: 3px solid #008CBA;
+}
+
+.company-header button:hover{
+	background-color: #008CBA;
+  	color: white;
+  	transition: 0.5s;
+}
+/*************************************************************/
+
+/* Common styling Each Section Title */
+.company-section-title{
+	color: #3279a8;
+	/*font-weight: bold;*/
+}
+/*************************************************************/
+
+
+/* Company Logo Icon */
+.iconFirst-margin-left{
+	margin-left: 100px;
+	height: 30rem;
+}
+/************************************************************/
+
+/* Company Hiring Process */
+.company-hiring-process-content{
+	margin-left: 20px;
+}
+
+.company-hiring-process-content ul, .company-hiring-process-content ol{
+	margin-left: 20px;
+}
+
+.company-hiring-process-content li, .company-hiring-process-content dt{
+	font-style: italic;
+	font-weight: bold;
+}
+
+.company-hiring-process-content dd{
+	margin-left: 10px;
+}
+
+.company-hiring-process-content .span-slogan{
+	color: royalblue;
+}
+/***********************************************************/

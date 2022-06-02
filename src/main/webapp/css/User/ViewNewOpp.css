@@ -1,0 +1,244 @@
+
+/* CSS file for JSP/User/ViewNewOpp.jsp*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	/*user-select: none;*/
+	font-family: Montserrat, Roboto, sans-serif;
+	scroll-behavior: smooth;
+	
+	/*font-weight: bold;*/
+}
+
+body{
+	height: 100%;
+	padding-top: 130px;
+}
+
+hr{
+	margin-bottom: 20px;
+	border-color: lightgrey;
+}
+
+.message{
+	color: seagreen;
+	font-size: 20px;
+}
+
+.pageHeading{
+	margin-left: 50px;
+	margin-right: 50px;
+	/* margin-bottom: 50px; */
+}
+
+.pageHeading h1{
+	margin-bottom: 20px;
+}
+
+
+.filter{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 17px;
+}
+
+.filter .note{
+	font-size: 13px;
+	color: darkkhaki;
+	font-weight: bold;
+}
+
+.filter form{
+	text-align: right;
+	word-spacing: 10px;
+}
+
+.filter input[type=submit]{
+	margin-top: 10px;
+	padding: 3px 10px;
+	border: 2px solid #c0e0a6;
+	background-color: #c0e0a6;
+	font-weight: bold;
+	transition: 0.7s;
+}
+
+
+.oppContainer{
+  background-color: white;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.boxShadowEffect{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boxShadowEffect:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+}
+
+.emptyRecords{
+	text-align: center;
+	font-size: 30px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.1fr 0.9fr 1fr;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  color: black;
+  /*text-align: center;*/
+}
+
+.opp-headings{
+	color: #0f0e0e;
+	font-weight: bold;
+}
+
+/* Row 1: Icons and Job Role */
+	.item-1-icon{
+		grid-row: 1 / span 2;
+		padding-top: 25px;
+	}
+
+	.item-2-jobRole{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.item-3-icon{
+		text-align: right;
+	}
+
+
+/* Row 2: Name and Location */
+	.item-4-name-location{
+		grid-column: 2 / span 2;
+	}
+
+	.item-4-name-location span{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+
+/* Row 3: Company Name and Location */
+	.item-5-jobType{
+		padding-top: 15px;
+		padding-left: 40px;
+		grid-column: 1 / span 2;
+	}
+
+	.item-5-jobType .jobType{
+		padding-top: 7px;
+	}
+
+	.item-6-ctc{
+		padding-top: 15px;
+	}
+
+	.item-6-ctc .ctc{
+		padding-top: 7px;
+	}
+
+/* Row 4 Job Description */
+	.item-7-description{
+		padding-top: 15px;
+		padding-left: 40px;
+		grid-column: 1 / span 3;
+	}
+
+	.item-7-description .jobDescription{
+		padding-top: 7px;
+	}
+
+
+/* Row 5: Link and Button */
+	.item-8-link{
+		grid-column: 1 / span 2;
+		padding-top: 15px;
+		padding-left: 40px;
+		padding-right: 0px;
+	}
+
+
+.item-9-status{
+		padding-top: 15px;
+		padding-left: 0px;
+		text-align: right;
+		word-spacing: 20px;
+	}
+
+	.item-9-status button{
+		padding: 10px;
+		min-width: 150px;
+		background-color: white;
+		font-size: 15px;
+	}
+
+	.item-9-status button:hover{
+		cursor: pointer;
+		letter-spacing: 0.5px;
+		transition: 0.7s;
+	}
+
+	.item-9-status .btnEdit{
+		border: 2px solid #c0e0a6;
+		background-color: #c0e0a6;
+		font-weight: bold;
+		transition: 0.7s;
+	}
+	
+
+	.item-9-status .btnApplicationList{
+		border: 2px solid #7f90ba;
+		background-color: #7f90ba;
+		font-weight: bold;
+		transition: 0.7s;
+	}
+	
+	
+	.item-9-status .btnApplied{
+		border: 2px solid #c0e0a6;
+		background-color: #c0e0a6;
+		font-weight: bold;
+		transition: 0.7s;
+	}
+
+
+	.item-9-status .btnNotInterested, .item-9-status .btnUndoNotInterested{
+		border: 2px solid #db7b7b;
+		background-color: #db7b7b;
+		font-weight: bold;
+		transition: 0.7s;
+	}
+	
+	.item-9-status .btnWithdraw{
+		border: 2px solid #a0a4db;
+		background-color: #a0a4db;
+		font-weight: bold;
+		transition: 0.7s;
+	}
+
+/* Hover Effect */
+.grid-container:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	
+}

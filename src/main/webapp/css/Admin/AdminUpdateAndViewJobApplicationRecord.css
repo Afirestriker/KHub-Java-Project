@@ -1,0 +1,193 @@
+
+/*
+ * CSS styling file for AdminUpdateAndViewJobApplicationRecord.jsp file
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	/*user-select: none;*/
+	font-family: Montserrat, Roboto, sans-serif;
+	scroll-behavior: smooth;
+	
+	/*font-weight: bold;*/
+}
+
+body{
+	padding-top: 70px; /*130px*/
+
+	background-color: #f5f5f5;
+
+	background-image: url("https://assets-global.website-files.com/5bfd6f4468ee7943c2d331dd/60d74f6dcf553d77e8c08d92_Wrroom.png");
+	background-size: 820px 800px;
+  	background-repeat: no-repeat;
+  	background-position: right bottom 200px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.grid-container > div {
+	/*background-color: burlywood;*/
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.Opportunity-edit-form{
+	padding: 20px 40px;
+}
+
+.Opportunity-edit-form span{
+	margin-left: 50px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.Opportunity-edit-form table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.Opportunity-edit-form table td{
+	padding: 5px 15px;
+	max-width: 200px;
+}
+
+.Opportunity-edit-form table label{
+	font-weight: bold;
+}
+
+.note
+{
+  color: dimgrey;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.Opportunity-edit-form table input[type=text], .Opportunity-edit-form table select, .Opportunity-edit-form table input[type=url], .Opportunity-edit-form table input[type=date], .Opportunity-edit-form table textarea{
+	width: 100%;
+	padding: 8px 0px;
+	font-weight: bold;
+}
+
+.Opportunity-edit-form table td p{
+	font-size: 15px;
+}
+
+.Opportunity-edit-form table textarea{
+	resize: vertical;
+}
+
+.Opportunity-edit-form table input[type=submit]{
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.Opportunity-edit-form table input[type=submit]:hover{
+	background-color: #45a049;
+}
+
+
+/*******************************************************/
+
+.Opportunity-application-record{
+	padding: 20px 40px;	
+}
+
+	/*search option*/
+.Opportunity-application-record .searchOption{
+	text-align: right;
+	margin: 10px;
+}
+
+.Opportunity-application-record .searchOption input[type=search]{
+	width: 30%;
+	padding: 7px;
+	font-weight: bold;
+	border: 1px solid #ccc;
+}
+
+.Opportunity-application-record .searchOption input[type=search]:hover{
+	background-color: ;
+	/* Close: search option*/
+}
+
+
+.table-heading{
+	margin-left: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.Opportunity-application-record .printBox{
+}
+
+.Opportunity-application-record table{
+	border-collapse: collapse;
+  	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.Opportunity-application-record table th, .Opportunity-application-record table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.Opportunity-application-record .printRecord{
+	text-align: right;
+	margin: 20px;
+	margin-right: 30px;
+}
+
+.Opportunity-application-record .printRecord button{
+	padding: 6px 20px;
+	font-size: 15px;
+	border: 1px solid #ccc;
+	font-weight: bold;
+	transition: 0.4s;
+}
+
+.Opportunity-application-record .printRecord button:hover{
+	cursor: pointer;
+	background-color: #ccc;
+	transition: 0.4s;	
+}
+
+
+
+/******************************************/
+.shadowEffect{
+	background-color: white;
+	opacity: 0.9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shadowEffect:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

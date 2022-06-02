@@ -1,0 +1,34 @@
+
+/*
+ * This is CSS file for JSP/User/ViewQuizIndex.jsp File
+ */
+
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+}
+
+.container-page-heading{
+    padding-top: 70px;
+}
+
+.container-quiz-topic{
+    max-width: 1364px;
+    margin-bottom: 20px;
+}
+
+.quiz-specific-topic-box:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
