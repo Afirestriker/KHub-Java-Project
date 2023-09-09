@@ -5,17 +5,17 @@
 
 A brief description of what this project does and who it's for...
 
-The project KHub – A Job Portal, is a web based application. It is a platform
-where user can register, add, view, edit, update, and maintain their information. User
-can also see and register for publish job opportunity. Moreover user can take practice
-quiz, prepare for Interview FAQ, and see various company details. The system is
-developed using Java, JSP, HTML and CSS and uses MySQL for database management.
+KHub is a Job Portal web-based application. A platform where user can register, 
+add, view, edit, update, and maintain their information. Users can also see and 
+register for published job opportunities. Moreover, users can take practice quizzes, 
+prepare for Interview FAQs, and see company details. The system is developed using 
+Java, JSP, JavaScript, jQuery, HTML, and CSS and uses MySQL for database management.
 
-The database can be access by Administrator. Administrator has the feature to
-publish opportunity and generate report related to the publish opportunity.
-Administrator also has rights to view user personal and academic details as a whole
-resume. The system provides the facility to search for the records and display the list of
-candidate as well as allow printing necessary records.
+The database is accessible by the Admin. The Admin has the option to publish 
+opportunities and generate reports related to the publishing opportunity. 
+The administrator also has the right to view the user's personal and academic 
+details as a whole resume. The system provides the facility to search for 
+the records, display the candidate list, and print records.
 
 ## Tech Stack
 
